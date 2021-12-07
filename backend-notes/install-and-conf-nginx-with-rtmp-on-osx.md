@@ -3,7 +3,8 @@ conf nginx with rtmp module
 
 #### Command
 
-	brew tap homebrew/nginx
+	#brew tap homebrew/nginx is deprecated
+	brew tap denji/homebrew-nginx
 	brew options nginx-full
 	brew info nginx-full
 	brew install nginx-full --with-rtmp-module --with-debug
